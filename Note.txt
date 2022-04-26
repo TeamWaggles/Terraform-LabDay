@@ -1,0 +1,8 @@
+Pre-reqs:AWS account
+         Sub-Account with profile with Admin rights
+         Homebrew
+
+
+- create AWS user with programmatic access (no password)
+- in vscode install "AWS Toolkit" extension
+    -> command pallette - "AWS: create credentials profile"
