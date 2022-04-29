@@ -1,21 +1,21 @@
-## Terraform-LabDay
+# Terraform-LabDay
 Lab created for the use of Channel SE team
 
-# How do I get everything I need installed?
+## How do I get everything I need installed?
 
 We’re glad you asked - there are many options to install Terraform. We recommend [Homebrew](https://brew.sh/) <br/>
 Note: Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) on MacOS prior to installation of Homebrew. Trust us on this.
 
-# Useful tools to install prior to install
+## Useful tools to install prior to install
 
-- brew install [terraform]
+- brew install [terraform](https://www.terraform.io/downloads)
 - brew install [git](https://git-scm.com/downloads)
 - brew install [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - brew install [azure-cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos)
 - brew install --cask google-cloud-sdk [GC]: https://cloud.google.com/sdk/docs/install-sdk
 - brew install [warrensbox/tap/tfswitch](https://tfswitch.warrensbox.com/Install/)     (optional, yet strongly recommended)
 
-# Core Terraform files in this repo
+## Core Terraform files in this repo
 
 main.tf - AWS resources defined
 
