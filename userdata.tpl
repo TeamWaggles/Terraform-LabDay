@@ -1,4 +1,4 @@
-#!/bin bash
+#!/bin/bash
 sudo apt-get update -y &&
 sudo apt-get install -y \
 apt-transport-https \
@@ -11,3 +11,8 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update -y &&
 sudo sudo apt-get install docker-ce docker-ce-cli containerd.io -y &&
 sudo usermod -aG docker ubuntu
+
+# apt-get install httpd -y
+# systemctl start httpd
+# systemctl enable httpd
+# sudo apt-get update -y
