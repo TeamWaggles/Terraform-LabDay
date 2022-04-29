@@ -78,7 +78,7 @@ resource "aws_instance" "dev_node" {
   key_name               = aws_key_pair.alain_path.id
   vpc_security_group_ids = [aws_security_group.alain_sg.id]
   subnet_id              = aws_subnet.alain_public_subnet.id
-  user_data              = file("userdata.tpl")
+  user_data              = "${file("userdata.tpl")}"
 
   root_block_device {
     volume_size = 10
