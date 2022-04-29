@@ -21,6 +21,8 @@ Note: Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) on 
 - brew install [`--cask google-cloud-sdk`](https://cloud.google.com/sdk/docs/install-sdk)
 - brew install [warrensbox/tap/tfswitch](https://tfswitch.warrensbox.com/Install/)     (optional, yet strongly recommended)
 
+Additionally, our good friend Anthony Rees created a [repo](https://github.com/alainlubin/laptop_setup) from which you can run a script to install the above tools and more. You may need to comment out applications you don't need to streamline the process. Note: I'm using a fork of his repo.
+
 ## Core Terraform files in this repo
 
 main.tf - AWS resources defined
