@@ -3,8 +3,8 @@ Lab created for the use of Channel SE team
 
 How do I get everything I need installed?
 
-We’re glad you asked - there are many options to install Terraform. We recommend [Homebrew](brew.sh)
-Note: Install Xcode on MacOS prior to installation of Homebrew. Trust us on this.
+We’re glad you asked - there are many options to install Terraform. We recommend [Homebrew](https://brew.sh/)
+Note: Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) on MacOS prior to installation of Homebrew. Trust us on this.
 
 
 main.tf - AWS resources defined
