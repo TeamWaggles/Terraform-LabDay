@@ -12,7 +12,7 @@ Note: Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) on 
 - brew install [git](https://git-scm.com/downloads)
 - brew install [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - brew install [azure-cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos)
-- brew install --cask google-cloud-sdk [GC]: https://cloud.google.com/sdk/docs/install-sdk
+- brew install [`--cask google-cloud-sdk`](https://cloud.google.com/sdk/docs/install-sdk)
 - brew install [warrensbox/tap/tfswitch](https://tfswitch.warrensbox.com/Install/)     (optional, yet strongly recommended)
 
 ## Core Terraform files in this repo
