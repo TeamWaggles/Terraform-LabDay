@@ -8,6 +8,12 @@ Note: Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) on 
 
 ## Useful tools to install prior to install
 
+### Code Editors
+- brew install [--cask visual-studio-code](https://code.visualstudio.com/download)
+- brew install [`--cask atom`](https://atom.io/)
+- brew install [`--cask sublime-text`](https://www.sublimetext.com/)
+
+### Software
 - brew install [terraform](https://www.terraform.io/downloads)
 - brew install [git](https://git-scm.com/downloads)
 - brew install [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
