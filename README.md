@@ -33,4 +33,4 @@ datasources.tf - Creates the Ubuntu AMI (Amazon Machine Image)
 
 userdata.tpl - Used to bootstrap (load a program that will be ready to use) the Ubuntu AMI
 
-Note: Terraform 13.0 is in use for this repo
+**Note: Terraform 13.0 is in use for this repo**
