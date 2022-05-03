@@ -31,6 +31,8 @@ providers.tf - Definies how to access AWS securely
 
 datasources.tf - Creates the Ubuntu AMI (Amazon Machine Image)
 
+outputs.tf - Displays ip address of ec2 instance
+
 userdata.tpl - Used to bootstrap (load a program that will be ready to use) the Ubuntu AMI
 
 **Note: Terraform 13.0 is in use for this repo**
