@@ -1,5 +1,5 @@
 # Terraform-LabDay
-Lab created for the use of Channel SE team
+Lab created for testing purposes
 
 ## How do I get everything I need installed?
 
