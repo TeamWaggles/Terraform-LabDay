@@ -72,6 +72,35 @@ resource "aws_key_pair" "alain_path" {
   public_key = file("~/.ssh/alain-tf-key.pub")
 }
 
+resource "aws_s3_bucket" "existing_bucket" {
+  bucket = "config-bucket-245851140349"
+  acl    = "public-read"  
+}
+
+# provider "aws" {
+#   region = "us-east-2" # Update to your preferred region
+# }
+
+resource "aws_db_instance" "default" {
+  allocated_storage    = 20
+  storage_type         = "gp2"
+  engine               = "mysql"
+  engine_version       = "5.7"
+  instance_class       = "db.t2.micro"
+  name                 = "mydb"
+  
+  # Not securing the username and password for demonstration
+  username             = "masterUsername"
+  password             = "masterPassword1234"
+  
+  parameter_group_name = "default.mysql5.7"
+  skip_final_snapshot  = true
+  
+  # Introducing a misconfiguration: No Multi-AZ for high availability
+  multi_az = false 
+}
+
+
 resource "aws_instance" "dev_node" {
   instance_type          = "t2.micro"
   ami                    = data.aws_ami.server_ami.id
