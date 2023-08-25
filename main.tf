@@ -74,7 +74,14 @@ resource "aws_key_pair" "alain_path" {
 
 resource "aws_s3_bucket" "existing_bucket" {
   bucket = "config-bucket-245851140349"
-  acl    = "public-read"  
+  acl    = "private"  
+
+  force_destroy = true
+}
+
+resource "aws_s3_bucket_acl" "bucket_acl" {
+  bucket = "config-bucket-245851140349"
+  acl    = "private"
 }
 
 # provider "aws" {
